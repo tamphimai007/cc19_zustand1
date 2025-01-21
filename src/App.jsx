@@ -1,6 +1,7 @@
 import { useState } from "react";
 import App2 from "./App2";
 import App3 from "./App3";
+import Product from "./pages/Product";
 
 const App = () => {
   const [count, setCount] = useState(0);
@@ -47,7 +48,8 @@ const App = () => {
       <hr />
 
       <App2 /> */}
-      <App3 />
+      {/* <App3 /> */}
+      <Product />
     </div>
   );
 };
